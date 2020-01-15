@@ -103,5 +103,5 @@ app.get('*', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log('server is up af' + port);
+    console.log('server is up at ' + port);
 });
